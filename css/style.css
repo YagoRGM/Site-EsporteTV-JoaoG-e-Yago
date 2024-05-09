@@ -5,7 +5,7 @@ html,body{
     font-family: Arial, Helvetica, sans-serif;
 }
 nav{
-    background-color: rgb(46, 46, 213);
+    background-color: rgb(158, 158, 236);
     color: rgb(255, 0, 0);
     display: flex;
     justify-content: space-between;
@@ -28,31 +28,33 @@ nav .nav-links ul a{
     font-weight: bold;
 }
 nav .nav-login{
-    background-color:rgb(46,46,213);
+    background-color:rgb(158,158,236);
 }
 nav .nav-login a{
     text-decoration: none;
-    color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 .sessões{
     border: solid 1px;
     border-color: rgb(137, 106, 249);
     height: 100%;
 }
-a:hover{
+nav .nav-login a:hover{
     background-color: darkgrey;
 }
 footer{
-    background-color: black;
+    background-color: rgb(133, 238, 198);
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     width: 100%;
     position: fixed;
     bottom:0;
 }
 form {
-    max-width: 500px;
+    max-width:500px;
     margin: 0 auto;
     margin-bottom: -5px;
     display: flex;
@@ -87,12 +89,6 @@ input[type="submit"] {
     font-size: 16px;
     margin-top: 10%;
 }
-
-#Formulario{
-    background-color: rgb(255, 255, 255);
-    padding: 20px;
-    border-radius: 4px;
-}
 .tituloformulario{
     align-items: center;
     text-align: center;
@@ -104,7 +100,7 @@ input[type="submit"] {
     margin: 0 auto; 
 }
 #imglogo{
-    width: 300px;
+    width: 200px;
     align-items: center;
     justify-content: center;
     margin-left: 50px;
@@ -119,4 +115,43 @@ input[type="submit"] {
     width: 70%;
     font-size: 16px;
     line-height: 1.6;
+}
+footer a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+footer {
+    background-color: rgb(133, 238, 198);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto; 
+}
+
+#joao, #yago {
+    margin: 0;
+}
+
+#joao {
+    text-align: left;
+    margin-top: 18px;
+}
+body{
+    background: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Ffree-backgrounds-photos%2Fsports&psig=AOvVaw0kUMMVWzlgK4eQbSPeICpu&ust=1715312209809000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMDj84rS_4UDFQAAAAAdAAAAABAE");
+    background-size: cover;
+    background-position: center;
 }
