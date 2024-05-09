@@ -45,7 +45,7 @@ nav .nav-login a:hover{
     background-color: darkgrey;
 }
 footer{
-    background-color: rgb(133, 238, 198);
+    background-color: rgb(165, 231, 205);
     color: white;
     text-align: center;
     padding: 10px;
@@ -53,14 +53,6 @@ footer{
     position: fixed;
     bottom:0;
 }
-form {
-    max-width:500px;
-    margin: 0 auto;
-    margin-bottom: -5px;
-    display: flex;
-    flex-direction: column;
-}
-
 label {
     display: block;
     margin-bottom: 5px;
@@ -80,8 +72,8 @@ input[type="password"] {
 
 input[type="submit"] {
     width: 100%;
-    background-color: rgb(114, 111, 245);
-    color: rgb(0, 0, 0);
+    background-color: rgb(38, 0, 255);
+    color: rgb(255, 255, 255);
     padding: 5px;
     border: 2px solid black;
     border-radius: 4px;
@@ -92,18 +84,25 @@ input[type="submit"] {
 .tituloformulario{
     align-items: center;
     text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .contorno{
     border: 2px solid black;
     padding: 20px; 
-    max-width: 600px; 
+    max-width: 400px; 
     margin: 0 auto; 
+    border-radius: 10px;
+    margin-top: 80px;
+    background-color: rgb(121, 215, 250);
+    max-height: 520px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
 }
 #imglogo{
     width: 200px;
     align-items: center;
     justify-content: center;
-    margin-left: 50px;
+    margin-left: 90px;
 }
 #accesslevel{
     width: 90%;
@@ -128,7 +127,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    width: 100%;
+    width: 110%;
     position: fixed;
     bottom: 0;
     left: 50%;
@@ -150,8 +149,29 @@ footer {
     text-align: left;
     margin-top: 18px;
 }
-body{
-    background: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Ffree-backgrounds-photos%2Fsports&psig=AOvVaw0kUMMVWzlgK4eQbSPeICpu&ust=1715312209809000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMDj84rS_4UDFQAAAAAdAAAAABAE");
+#usuario{
+    margin-top: 30px;
+}
+#preferencia {
+    margin-top: 20px;
+}
+
+#preferencia label {
+    font-size: larger;
+    margin-right: 10px;
+}
+
+#resposta {
+    display: flex;
+}
+
+#resposta label {
+    margin-right: 5px; 
+    margin-top: 10px;
+}
+#fundo {
+    background-image: url('../img/2870046-fundo-do-estadio-de-futebol-vetor.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
