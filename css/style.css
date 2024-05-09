@@ -3,6 +3,7 @@ html,body{
     padding: 0;
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
 }
 nav{
     background-color: rgb(158, 158, 236);
@@ -13,10 +14,9 @@ nav{
     align-items: center;
 }
 nav .nav-links ul{
-    margin-right: 20px;
     list-style-type: none;
     margin: 0;
-    padding: o;
+    padding: 0;
     display: flex;
     align-items: center;
 }
@@ -28,18 +28,21 @@ nav .nav-links ul a{
     font-weight: bold;
 }
 nav .nav-login{
-    background-color:rgb(158,158,236);
+    background-color: rgb(158,158,236);
 }
 nav .nav-login a{
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    margin-left: 5%;
 }
 .sessões{
     border: solid 1px;
     border-color: rgb(137, 106, 249);
     height: 100%;
+    padding: 20px;
+    width: 100%;
 }
 nav .nav-login a:hover{
     background-color: darkgrey;
@@ -49,7 +52,7 @@ footer{
     color: white;
     text-align: center;
     padding: 10px;
-    width: 100%;
+    width: 50%;
     position: fixed;
     bottom:0;
 }
@@ -109,12 +112,6 @@ input[type="submit"] {
     align-items: start;
     margin-top: 10%;
 }
-#secao1 p{
-    float: right;
-    width: 70%;
-    font-size: 16px;
-    line-height: 1.6;
-}
 footer a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -127,11 +124,9 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    width: 110%;
+    width: 100%;
     position: fixed;
     bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 .footer-container {
@@ -175,3 +170,100 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
 }
+#logorodape{
+    width: 170px;
+}
+#secao1 {
+    margin: 0 auto;
+    padding: 10px;
+    text-align: left; 
+    font-size: 20px;
+}
+
+#secao1 h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#secao1 h2 {
+    color: #555;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#secao1 p {
+    color: #777;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+#secao1 img {
+    float: right;
+    margin-right: 30px;
+    width: 450px;
+    margin-top:50px; 
+}
+.manchetes{
+    display: flex;
+    flex-direction: column;
+}
+#sec1 {
+    display: flex;
+    margin-bottom: 20px; 
+}
+
+#sec1 img {
+    margin-right: 100px; 
+    height: 300px;
+}
+
+#sec1 p {
+    text-align: justify; 
+    margin-right: 100px;
+    margin-top: 0px;
+}
+
+.primeira-manchete,
+.segunda-manchete {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 250px;
+    width: 450px; 
+    margin-left: 10px; 
+}
+.primeira-manchete img,
+.segunda-manchete img {
+    width: 400px;
+
+}
+.contornoperfil{
+    text-align: center; 
+    background-color: rgb(255, 255, 255); 
+    padding: 20px; 
+    border-radius: 5px; 
+    max-width: 500px; 
+    margin: 0 auto; 
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    max-height: 250px;
+    all: 90px;
+}
+
+#Perfil{
+    background-color: #dbdbdb; 
+    padding: 20px;
+    border-radius: 10px;
+    height: 95vh; 
+}
+
+#fundoperfil{
+    background: url("../img/2870046-fundo-do-estadio-de-futebol-vetor.jpg");
+}
+#Voltar{
+    text-align: center;
+}
+
